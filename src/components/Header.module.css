@@ -1,4 +1,10 @@
 .header {
-    height: 80px;
-    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 1.25rem 0; /* 1.25 = 16px + 4px */
+    background: var(--white);
+}
+
+.header img {
+    height: 2rem;
 }
